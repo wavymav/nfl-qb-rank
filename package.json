@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/wavymav/espnScraper/issues"
   },
-  "homepage": "https://github.com/wavymav/espnScraper#readme"
+  "homepage": "https://github.com/wavymav/espnScraper#readme",
+  "dependencies": {
+    "x-ray": "^2.0.2"
+  }
 }
