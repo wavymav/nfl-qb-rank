@@ -1,6 +1,6 @@
 {
   "name": "nfl-qb-rank",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get a list of the current passing leaders in the NFL",
   "main": "src/app.js",
   "scripts": {
