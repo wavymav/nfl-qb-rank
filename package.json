@@ -1,22 +1,23 @@
 {
-  "name": "espn-scraper",
+  "name": "nlf-qb-rank",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "Get a list of the current passing leaders in the NFL",
+  "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wavymav/espnScraper.git"
+    "url": "git+https://github.com/wavymav/nlf-qb-rank.git"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "get",
+    "list"
+  ],
+  "author": "Marcus Barnes <mavjabrnes@gmail.com>",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wavymav/espnScraper/issues"
+    "url": "https://github.com/wavymav/nlf-qb-rank/issues"
   },
-  "homepage": "https://github.com/wavymav/espnScraper#readme",
-  "dependencies": {
-    "x-ray": "^2.0.2"
-  }
+  "homepage": "https://github.com/wavymav/nlf-qb-rank#readme"
 }
