@@ -4,6 +4,7 @@
   "description": "Get a list of the current passing leaders in the NFL",
   "main": "src/app.js",
   "scripts": {
+    "commit": "git-cz",
     "test": "mocha src/app.test.js -w",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
@@ -31,5 +32,8 @@
     "cz-conventional-changelog": "1.1.4",
     "mocha": "2.3.3",
     "semantic-release": "^4.3.5"
+  },
+  "czConfig": {
+      "path": "node_modules/cz-conventional-changelog"
   }
 }
