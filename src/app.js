@@ -23,7 +23,7 @@ var random = function(number) {
 };
 
 module.exports = {
-    
+
     // lists all qb {}'s
     listAll: qbRankList,
 
