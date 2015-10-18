@@ -8,18 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wavymav/nlf-qb-rank.git"
+    "url": "git+https://github.com/wavymav/nfl-qb-rank.git"
   },
   "keywords": [
     "get",
     "list"
   ],
-  "author": "Marcus Barnes <mavjabrnes@gmail.com>",
+  "author": "Marcus Barnes <mavjbarnes@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wavymav/nlf-qb-rank/issues"
+    "url": "https://github.com/wavymav/nfl-qb-rank/issues"
   },
-  "homepage": "https://github.com/wavymav/nlf-qb-rank#readme",
+  "homepage": "https://github.com/wavymav/nfl-qb-rank#readme",
   "dependencies": {
     "unique-random-array": "1.0.0",
     "x-ray": "2.0.2"
