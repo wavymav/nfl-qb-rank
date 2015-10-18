@@ -7,13 +7,15 @@ describe('nfl-qb-rank', function() {
     describe('listAll', function() {
         it('should be an array of objects', function() {
 
-            expect(qbRankList.listAll).to.satisfy(isArrayOfObjects);
-
-            function isArrayOfObjects(array) {
+            var isArrayOfObjects = function(array) {
                 return array.every(function(item) {
                     return typeof item === 'object';
                 });
-            }
+            };
+
+            expect(qbRankList.listAll).to.satisfy(isArrayOfObjects);
+
+
 
         });
     });
