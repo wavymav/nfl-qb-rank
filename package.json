@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/wavymav/nlf-qb-rank/issues"
   },
-  "homepage": "https://github.com/wavymav/nlf-qb-rank#readme"
+  "homepage": "https://github.com/wavymav/nlf-qb-rank#readme",
+  "dependencies": {
+    "x-ray": "2.0.2"
+  }
 }
