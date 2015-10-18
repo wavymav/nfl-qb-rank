@@ -1,5 +1,6 @@
 {
   "name": "nfl-qb-rank",
+  "version": "0.0.0-semantically-released",
   "description": "Get a list of the current passing leaders in the NFL",
   "main": "src/app.js",
   "scripts": {
@@ -26,6 +27,8 @@
   },
   "devDependencies": {
     "chai": "3.3.0",
+    "commitizen": "2.1.0",
+    "cz-conventional-changelog": "1.1.4",
     "mocha": "2.3.3",
     "semantic-release": "^4.3.5"
   }
