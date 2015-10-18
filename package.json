@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/wavymav/nlf-qb-rank#readme",
   "dependencies": {
+    "unique-random-array": "1.0.0",
     "x-ray": "2.0.2"
   }
 }
