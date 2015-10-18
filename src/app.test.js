@@ -20,11 +20,11 @@ describe('nfl-qb-rank', function() {
 
     // testing random()
     describe('random', function() {
-      it('should return a random item from the from qbRankList.listAll', function() {
+        it('should return a random item from the from qbRankList.listAll', function() {
 
-        var randomItem = qbRankList.random();
+            var randomItem = qbRankList.random();
 
-        expect(qbRankList.listAll).to.include(randomItem);
+            expect(qbRankList.listAll).to.include(randomItem);
 
       });
     });
