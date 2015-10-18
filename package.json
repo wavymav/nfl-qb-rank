@@ -1,14 +1,14 @@
 {
   "name": "nfl-qb-rank",
-  "version": "1.0.2",
   "description": "Get a list of the current passing leaders in the NFL",
   "main": "src/app.js",
   "scripts": {
-    "test": "mocha src/app.test.js -w"
+    "test": "mocha src/app.test.js -w",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wavymav/nfl-qb-rank.git"
+    "url": "https://github.com/wavymav/nfl-qb-rank.git"
   },
   "keywords": [
     "get",
@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "chai": "3.3.0",
-    "mocha": "2.3.3"
+    "mocha": "2.3.3",
+    "semantic-release": "^4.3.5"
   }
 }
